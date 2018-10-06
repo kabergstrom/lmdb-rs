@@ -1,3 +1,4 @@
 [submodule "lmdb-sys/lmdb"]
 	path = lmdb-sys/lmdb
-	url = https://github.com/LMDB/lmdb
+	url = https://github.com/cmollekopf/lmdb
+	branch = 0.9.22_sparsewin32
