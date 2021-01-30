@@ -1,8 +1,8 @@
 [package]
 
-name = "lmdb-sys"
+name = "distill-downstream-lmdb-sys"
 # NB: When modifying, also modify html_root_url in lib.rs
-version = "0.8.0"
+version = "0.8.0-windows-fix"
 authors = ["Dan Burkert <dan@danburkert.com>"]
 license = "Apache-2.0"
 

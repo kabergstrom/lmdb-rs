@@ -1,8 +1,8 @@
 [package]
 
-name = "lmdb-rkv"
+name = "distill-downstream-lmdb-rkv"
 # NB: When modifying, also modify html_root_url in lib.rs
-version = "0.11.0"
+version = "0.11.0-windows-fix"
 authors = ["Dan Burkert <dan@danburkert.com>"]
 license = "Apache-2.0"
 
@@ -28,7 +28,7 @@ members = [
 [dependencies]
 bitflags = "1"
 libc = "0.2"
-lmdb-sys = { path = "lmdb-sys" }
+distill-downstream-lmdb-sys = { version = "0.8.0-windows-fix", path = "lmdb-sys" }
 
 [dev-dependencies]
 rand = "0.4"
